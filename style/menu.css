@@ -44,9 +44,9 @@ aside{
 	position: fixed;
 }
 a{
-color:black;
-text-decoration:none;
+	color:black;
+	text-decoration:none;
 }
 footer{
-clear:left;
+	float:right;
 }

@@ -40,7 +40,9 @@
 				<h2><a href="#bases">Les bases</a></h2>
 				<h3><a href="#var">Les variables</a></h3>
 				<h3><a href="#fct">Les fonctions</a></h3>
-				<h3><a href="#cond">Les structures conditionnelles</a></h3>
+				<h3><a href="#stru">Les structures conditionnelles</a></h3>
+				<h4><a href="#cond">Les conditions</a></h4>
+				<h4><a href="#loop">Les boucles</a></h4>
 		</aside>
 		<article>
 			<h1>Processing</h1>
@@ -75,19 +77,28 @@
 			<ul>
 				<li><code>size()</code> : Cette fonction permet de choisir la taille de la fenêtre affichée par Processing. </li>
 				<li><code>background()</code> : Cette fonction sert à définir la couleur du fond de la fenêtre de notre programme.</li>
-				<li><code>ellipse()</code> : Cette fonction permet de dessiner une ellipse dans notre fenêtre. On déclare l'</li>
-
+				<li><code>ellipse()</code> : Cette fonction permet de dessiner une ellipse dans notre fenêtre. On déclare l'ellipse grâce aux coordonnées et à sa largeur et longueur.  </li>
+				<li><code>rect() </code>: Cette fonction permet de dessiner un rectangle dans notre fenêtre. On lui place en paramètre les même choses que pour l'ellipse.</li>
+				<li><code>fill() </code>: Cette fonction est utilisée pour définir la couleur de ce que l'on va dessiner après.</li>
+				<li><code>Text() :</code>Cette fonction permet d’écrire une String sur l’écran à une position précise. On peut rajouter des paramètres sur le texte avec les fonctions <code>textSize(), textAlign(), textFont()</code>.</li>
 			</ul>
-			<!--
-			
-ellipse grâce aux coordonnées et à sa largeur et longueur.  
-rect() : Cette fonction permet de dessiner un rectangle dans notre fenêtre. On lui place en paramètre les même choses que pour l'ellipse.
-fill() : Cette fonction est utilisée pour définir la couleur de ce que l'on va dessiner après.
-Text() : Cette fonction permet d’écrire une String sur l’écran à une position précise. On peut rajouter des paramètres sur le texte avec les fonctions textSize(), textAlign(), textFont().
-			-->
-			<h3 id="cond">Les structures conditionnelles</h3>
-			<p></p>
+			<p>
+				Toutes les fonctions sont répertoriées et documentées dans <a class="link" href="https://processing.org/reference/">la référence</a>. 
+				Nous pouvons aussi créer nos propres fonctions pour faire plusieurs fois la même séquence sans avoir à tous réécrire. Nous allons donc déclarer notre fonction en commençant par le type de fonction, si la fonction renvoi quelque chose à la fin de son exécution, il faut mettre le type de variable que l'on retourne, si la fonction ne retourne aucune information, le type de la fonction sera void. On écrit ensuite le nom de notre fonction. On le suit de parenthèse on l'on peut mettre des arguments pour la fonction. On forme ensuite un bloc avec les accolades pour entouré le code exécuté par la fonction.
+			</p>
+			<h3 id="stru">Les structures conditionnelles</h3>
+			<p>Les structures de contrôle sont la base de la programmation, elles permettent de relier différentes informations pour exécuter d'autres tâches.</p>
+			<h4 id="cond">Les conditions</h4>
+			<p>Les conditions permettent de comparer deux valeurs pour ensuite réaliser des tâches si les conditions sont remplis ou non.
+			Il y a trois mot clé différents essentiels pour les conditions if, else et else if.
+			Le premier permet de comparer deux valeurs grâce à des opérations logiques ( ''=='' égale, ''!='' différent, ''<'' inférieur, ''>'' supérieur, …), si la condition est remplie, cela exécute la ou les tâches. Au lieu de réaliser plusieurs conditions, on peut lui demander de comparer plusieurs choses avec les opérateurs ''&&'' et ''||'', qui signifient ''ET'' et ''OU''. 
+			Else permet de rajouter un ''sinon'', si la condition précédente n'est pas remplie, il exécute la ou les tâches du else.
+			Else if est un mélange des deux, si la condition précédente n'est pas remplie mais que cette condition est rempli alors il exécute la ou les tâches.
+			Lorsqu'on a plusieurs conditions à la suite, où l'on compare une valeur à plusieurs autres, il est préférable d'utiliser la structure switch case que de faire suivre plusieurs if, else if, else.</p>
+			<h4 id="loop">Les boucles</h4>
+			<p>Les boucles sont des structures permettant de répéter plusieurs fois certaines tâches, en fonction d'un incrément ou d'une condition. Les mots clés sont for, pour un nombre de boucle précis, ou while, pour répéter tant que la condition donnée est remplie.</p>
 		</article>
+		<p>Processing nous a permis de realiser plusieurs projets comme <a class="link" href="pong.html">le pong</a> ou <a class="link" href="2048.html">le 2048</a></p>
 		
 		<footer>
 			Tristan DRUSSEL- Février 2016
