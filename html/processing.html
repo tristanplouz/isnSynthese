@@ -49,16 +49,42 @@
 			<h2 id="bases">Les bases</h2>
 			<p>La programmation sous Processing repose sur plusieurs règles strictes, à la fin d'une ligne il faut mettre un point virgule ';' et les blocs d'instruction sont entourés d'accolades '{}'.</p>
 			<h3 id="var">Les variables</h3>
-			<p>Les variables sont des endroits dans la mémoire où l'on peut stocker des informations de différents types. Processing étant basé sur du Java, il possède tous les types de variables primitives du Java. <br>On peut donc utiliser les types suivants :</p>
-			<ul>
-				<li><code>int</code> : Il s'agit d'une variable numérique stockant des entiers pouvant aller de -2 147 483 647 à 2 147 483 647 </li>
-				<li><code>float</code> : Il s'agit aussi d'une variable numérique mais elle peut stocker des valeurs décimales de -3.40282347*1038 à 3.40282347*1038 mais avec un manque de précision.</li>
-				<li><code>double</code> : Il s'agit aussi d'une variable numérique décimale mais elle peut stocker de -3.40282347*1038 à  3.40282347*1038 avec plus de précision qu'un float.</li>
-				<li><code>boolean</code> : Il s'agit d'une variable logique pouvant uniquement stocker True ou False.</li>
-				<li><code>Char</code> : Il s'agit d'une variable pouvant stocker un symbole Unicode. </li>
-			</ul>
+			<p>Les variables sont des endroits dans la mémoire où l'on peut stocker des informations de différents types. Processing étant basé sur du Java, il possède tous les types de variables primitives du Java. <br>On peut donc utiliser les types suivants :
+				<ul>
+					<li><code>int</code> : Il s'agit d'une variable numérique stockant des entiers pouvant aller de -2 147 483 647 à 2 147 483 647 </li>
+					<li><code>float</code> : Il s'agit aussi d'une variable numérique mais elle peut stocker des valeurs décimales de -3.40282347*1038 à 3.40282347*1038 mais avec un manque de précision.</li>
+					<li><code>double</code> : Il s'agit aussi d'une variable numérique décimale mais elle peut stocker de -3.40282347*1038 à  3.40282347*1038 avec plus de précision qu'un float.</li>
+					<li><code>boolean</code> : Il s'agit d'une variable logique pouvant uniquement stocker <code>True</code> ou <code>False</code>.</li>
+					<li><code>Char</code> : Il s'agit d'une variable pouvant stocker un symbole Unicode. </li>
+				</ul>
+			</p>
+			<p>
+				A ces types de variables on peut rajouter d'autres types tel que :
+				<ul>
+					<li><code>Array </code>: Il s'agit d'un tableau de variables, il peut être à plusieurs dimensions.</li>
+					<li><code>String</code> : Il s'agit d'une chaîne de caractères, un tableau de char. Cela permet de stocker du texte.</li>
+				</ul>
+			</p>
 			<h3 id="fct">Les fonctions</h3>
-			<p></p>
+			<p>
+				Pour fonctionner correctement, un programme Processing doit contenir au moins deux fonctions, le void setup et le void loop.
+				La première de ces fonctions, le void setup , est exécutée une seule fois, à l'initialisation du programme.
+				La seconde, le void loop, sera exécutée à chaque mise à jour de l’écran, c'est à dire environs 30 fois par seconde.
+				Ensuite pour pouvoir faire des choses, on a notre disposition plein de fonctions différentes. Nous allons voir quelques fonctions basiques :
+			</p>
+			<ul>
+				<li><code>size()</code> : Cette fonction permet de choisir la taille de la fenêtre affichée par Processing. </li>
+				<li><code>background()</code> : Cette fonction sert à définir la couleur du fond de la fenêtre de notre programme.</li>
+				<li><code>ellipse()</code> : Cette fonction permet de dessiner une ellipse dans notre fenêtre. On déclare l'</li>
+
+			</ul>
+			<!--
+			
+ellipse grâce aux coordonnées et à sa largeur et longueur.  
+rect() : Cette fonction permet de dessiner un rectangle dans notre fenêtre. On lui place en paramètre les même choses que pour l'ellipse.
+fill() : Cette fonction est utilisée pour définir la couleur de ce que l'on va dessiner après.
+Text() : Cette fonction permet d’écrire une String sur l’écran à une position précise. On peut rajouter des paramètres sur le texte avec les fonctions textSize(), textAlign(), textFont().
+			-->
 			<h3 id="cond">Les structures conditionnelles</h3>
 			<p></p>
 		</article>
