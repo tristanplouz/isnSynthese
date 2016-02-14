@@ -1,0 +1,21 @@
+h1{
+	margin-left:0px;
+}
+h2{
+	margin-left:10px;
+}
+h3{
+	margin-left:20px;
+}
+h4{
+	margin-left:30px;
+}
+h5{
+	margin-left:40px;
+}
+.link{
+	text-decoration:underline;
+}
+p{
+	width:75%;
+}
