@@ -1,5 +1,6 @@
 .menu{
-	border-style:groove;
+	border-style:solid;
+	box-shadow:4px 2px 1px;
 	background-color: #D7CFAF;
 }
 
@@ -16,6 +17,7 @@
 	width:20%;
 	vertical-align:top;
 	background-color: #D7D0B4;
+	box-shadow:1px 0px 1px;
 }
 
 #menuL{
@@ -30,12 +32,15 @@
 }
 #PT:hover ul>.items{
 	display: block;
+	box-shadow:1px 0px 1px;
 }
 #ST:hover ul>.items{
 	display: block;
+	box-shadow:1px 0px 1px;
 }
 #autre:hover ul>.items{
 	display: block;
+	box-shadow:1px 0px 1px;
 }
 #content{
 	display:none;
