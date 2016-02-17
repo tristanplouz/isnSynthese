@@ -26,3 +26,9 @@ blockquote{
 	box-shadow:2px 2px 1px #888888;
 	
 }
+#logo{
+	height:100px;
+	width:auto;
+	float:right;
+	margin-right:25%
+}
