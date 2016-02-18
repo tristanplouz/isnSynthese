@@ -42,8 +42,8 @@
 				<h3><a href="#basH">Bases</a></h3>
 				<h2><a href="#cs">CSS</a></h2>
 				<h3><a href="#presen">Presentation</a></h3>
-				<h3><a href="#histo">Historique</a></h3>
 				<h3><a href="#basC">Bases</a></h3>
+				<h2><a href="#autr">Autres</a></h2>
 		</aside>
 		
 		<article>
@@ -89,8 +89,34 @@
 			</code></pre>
 			<h2 id="cs">CSS</h2>
 			<h3 id="presen">Presentation</h3>
-			<h3 id="histo">Historique</h3>
+			<blockquote><p>Les feuilles de style en cascade, généralement appelées CSS de l'anglais Cascading Style Sheets, forment un langage informatique qui décrit la présentation des documents HTML et XML. Les standards définissant CSS sont publiés par le World Wide Web Consortium (W3C). Introduit au milieu des années 1990, CSS devient couramment utilisé dans la conception de sites web et bien pris en charge par les navigateurs web dans les années 2000.</p></blockquote>
+			<p>Nous utilisons aujourd'hui la version numero 3 du CSS</p>
 			<h3 id="basC">les bases du CSS</h3>
+			<p>Le CSS est composé de regle qui agisse sur des elements. Il y a trois manieres d'integrer du code CSS dans une page web. Seule la derniere methode est à utilisé.</p>
+			<ul>
+				<li><p>Il s'agit d'integrer le css dans la balise concernée, comme dans l'exemple suivant:</p><code class="bloccode">&lt;p style="color:blue"&gt;</code></li>
+				<li><p>Il s'agit de placer le code CSS dans une balise dedier dans l'entete du fichier:</p>
+				<pre><code class="bloccode">
+&lt;style&gt;
+p{
+	color:blue;
+}						
+&lt;/style&gt;
+</code></pre></li>
+				<li><p>Il s'agit de mettre le code CSS dans un fichier externe et de l'inclure</p>
+<pre><code class="bloccode">
+&lt;link rel="stylesheet" href="mon fichier.css"/&gt;
+</code></pre><br>
+<pre><code class="bloccode">
+p{
+		color:blue;
+}
+</code></pre>
+</li>
+			</ul>
+			<p>Les regles sont definies par un selecteur(balise, id, class) et des proprietés cqui definisse l'aspect graphique.(margin, color, border,...)</p>
+			<h2 id="autr">Autres</h2>
+			<p>Les pages webs sont ensuite hebergés sur des serveurs</p>
 		</article>
 		<footer>
 			Tristan DRUSSEL- Février 2016
