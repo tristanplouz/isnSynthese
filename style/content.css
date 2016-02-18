@@ -32,3 +32,9 @@ blockquote{
 	float:right;
 	margin-right:25%
 }
+.bloccode{
+	width:75%;
+	margin-left:10px;
+	display:block;
+	background-color:#CCCCCC;
+}

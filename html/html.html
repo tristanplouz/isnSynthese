@@ -36,23 +36,61 @@
 		</ul>
 		</nav>
 		<aside id="menuL" class="menu">
-				<h2><a href="#ht">Les bases de HTML</a></h2>
-				<h2><a href="#cs">Les bases de CSS</a></h2>
-				<h3><a href="#"></a></h3>
-				<h3><a href="#"></a></h3>
-				<h3><a href="#"></a></h3>
-				<h4><a href="#"></a></h4>
-				<h4><a href="#"></a></h4>
+				<h2><a href="#ht">HTML</a></h2>
+				<h3><a href="#pres">Presentation</a></h3>
+				<h3><a href="#his">Historique</a></h3>
+				<h3><a href="#basH">Bases</a></h3>
+				<h2><a href="#cs">CSS</a></h2>
+				<h3><a href="#presen">Presentation</a></h3>
+				<h3><a href="#histo">Historique</a></h3>
+				<h3><a href="#basC">Bases</a></h3>
 		</aside>
 		
 		<article>
 			<h1>Le web</h1>
 			<img id="logo" src="../img/html.png">
-			<h2 id="ht">Les bases de HTML</h2>
-			<p>Une page de base en HTML5 ressemble à:
-			
-			</p>
-			<h2 id="cs">Les bases de CSS</h2>
+			<h2 id="ht">HTML</h2>
+			<h3 id="pres">Presentation</h3>
+			<blockquote><p>L’<i>Hypertext Markup Language</i>, généralement abrégé HTML, est le format de données conçu pour représenter les pages web. C’est un langage de balisage permettant d’écrire de l’hypertexte, d’où son nom. HTML permet également de structurer sémantiquement et de mettre en forme le contenu des pages, d’inclure des ressources multimédias dont des images, des formulaires de saisie, et des programmes informatiques. Il permet de créer des documents interopérables avec des équipements très variés de manière conforme aux exigences de l’accessibilité du web.</p></blockquote>
+			<p>Il s'agit d'un langage de description qui fonctionne sous la forme de blocs imbriqués les uns dans les autres.</p>
+			<h3 id="his">Historique</h3>
+			<blockquote>
+				<p>En 1991, Tim Berners-Lee met au point le langage HTML pour mettre en forme un document, le logiciel qui permet de lire ce fichier et de l'afficher (le navigateur ou browser en anglais) ainsi que le protocole qui permet le transfert des informations.</p>
+			</blockquote>
+			<p>Aujourd'hui nous fonctionnons avec la version 5 du langage HTML.</p>
+			<h3 id="basH">Les Bases du HTML</h3>
+			<p>Une page HTML de base comporte un balise <code>&lt;html&gt;</code>. Dans cette balise noous retrouvons une balise definnissant l'en-tete <code>&lt;header&gt;</code> et une balise pour le corps de la page <code>&lt;body&gt;</code></p>
+			<p>Dans l'entete de la page nous definissons le type d'encodage, les differents import et les autres meta-données.</p>
+			<p>Dans le corps de la page nous avons le contenu qui sera affiché à l'écran, et structuré grâce à d'autres balises tel que <code>&lt;h1&gt; &lt;p&gt; &lt;article&gt; &lt;section&gt; &lt;div&gt; &lt;blockquote&gt;</code>. Une page HTML ressemble donc à:</p>
+			<pre><code class="bloccode">
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+   &lt;head&gt;
+	  &lt;meta charset="utf-8" /&gt;
+	  &lt;title&gt;Le titre de la page&lt;/title&gt;
+	  &lt;meta name="generator" content="Geany 1.25" /&gt;
+	  &lt;link rel="stylesheet" href="mon fichier.css" /&gt;
+   &lt;/head&gt;
+   &lt;body&gt;
+	  &lt;section&gt;
+		 &lt;article&gt;
+			 &lt;h1&gt;Un titre important&lt;/h1&gt;
+			 &lt;p&gt;Un paragraphe&lt;/p&gt;
+			 &lt;ul&gt;
+			Une liste
+			   &lt;li&gt;Avec&lt;/li&gt;
+			   &lt;li&gt;des&lt;/li&gt;
+			   &lt;li&gt;elements&lt;/li&gt;
+			 &lt;/ul&gt;
+		 &lt;/article&gt;
+	  &lt;/section&gt;
+   &lt;/body&gt;
+&lt;/html&gt;
+			</code></pre>
+			<h2 id="cs">CSS</h2>
+			<h3 id="presen">Presentation</h3>
+			<h3 id="histo">Historique</h3>
+			<h3 id="basC">les bases du CSS</h3>
 		</article>
 		<footer>
 			Tristan DRUSSEL- Février 2016
