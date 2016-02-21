@@ -1,0 +1,5 @@
+12:56:54 - H2L29 :  /home/moi/dossier/fichier ./fichier ~/dossier/fichier la 3ème est relative ou absolue?
+12:58:41 - prezFinix : en assembleur, l'adresse relative est une valeur positive ou négative par rapport à la position actuelle de l'instruction, par exemple je recule de 4 octets ou j'avance de 4 octets, et l'adresse absolue, c'est la position depuis le point 0 de la mémoire par exemple, je vais à l'adresse 0x0800 ou je vais à l'adresse 0x0900 (pour l'expliquer, c'est simple, le 214 rue jean jaurès, c'est l'adresse absolue, et l'adresse relative c'est "à côté des chaussures Corres en montant la rue")
+12:59:13 - benvii : tristanplouz: le plus simple pour ce genre de truc c'est peut-être de trouver une métaphore, aller je me lance :
+Brest est à 48°24′ Nord ; 4°28.9998′ Ouest ---> c'est absolue pas besoin de plus d'info pour trouver Brest
+En relatif Brest est à 504km de Paris. --> c'est relatif car faut savoir ou est Paris  […]

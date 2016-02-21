@@ -38,3 +38,11 @@ blockquote{
 	display:block;
 	background-color:#CCCCCC;
 }
+table
+{
+    border-collapse: collapse; 
+}
+td
+{
+    border: 1px solid black;
+}

@@ -6,6 +6,7 @@
 		<meta name="generator" content="Geany 1.25" />
 		<link rel="stylesheet" href="../style/menu.css" />
 		<link rel="stylesheet" href="../style/content.css" />
+		<script src="../js/2048.js" type="text/javascript"></script>
 	</head>
 	<body>
 		<nav>
@@ -22,6 +23,7 @@
 			<li class="items" id="ST">
 				Second Trimestre
 				<ul>
+					<li class="items ST"><a href="../html/asterix.html">L'animation Asterix</a></li>
 					<li class="items ST"><a href="../html/html.html">Le web</a></li>
 					<li class="items ST"><a href="../html/arduino.html">L'arduino</a></li>
 				</ul>
@@ -40,8 +42,8 @@
 				<h2><a href="#real">Réalisation</a></h2>
 				<h3><a href="#ac">Un menu d'acceuil</a></h3>
 				<h3><a href="#reflection">Nos réflections</a></h3>
-				<h4><a href="#"></a></h4>
-				<h4><a href="#"></a></h4>
+				<h4><a href="#fi">Première Scéance</a></h4>
+				<h3><a href="#res">Le résultat</a></h3>
 		</aside>
 		
 		<article>
@@ -56,9 +58,85 @@
 				<li>Un écran avec affichage du score de la partie et du meilleur score jamais réalisé.</li>
 			</ul>
 			</blockquote>
-			<h2 id="real">Réalistation</h2>
+			<h2 id="real">Réalisation</h2>
 			<h3 id="ac">Un menu d'accueil</h3>
-			<h3 id="reflection">Partie de nos reflections de groupe</h3>
+			<h3 id="reflection">Partie de nos réflections de groupe</h3>
+			<p>Notre groupe de travail était composé de 3 personnes. Nous avons choisi de réaliser un 2048, jeu avec un tableau.</p>
+			<h4 id="#fi">Première séance</h4>
+			<p>Nous avons tout d'abord réuni nos différentes idées</p>
+			<ol>
+				<li>Utilisation d'un tableau à deux dimensions de 4 places.</li>
+				<li><table>
+					<tr>
+						<td>
+							<ul>Si Flèche de droite.
+								<li>Tout se décale le plus vers la droite.
+								<ul>
+									<li>  Si ce sont les mêmes ils s'additionnent</li>
+								</ul>
+								</li>. 
+								<li>Ajoute aléatoirement un 2 ou un 4 dans le tableau.</li>
+							</ul>
+						</td>
+						<td>
+						<ul>Si Flèche de Gauche
+								<li> Tout se decale le plus vers la gauche.
+								<ul>
+									<li> Si ce sont les mêmes ils s'additionnent</li>
+								</ul>
+								</li>. 
+								<li>Ajoute aléatoirement un 2 ou un 4 dans le tableau.</li>
+						</ul>
+						</td>
+						<td>
+						<ul>Si Flèche du Haut
+								<li> Tout se decale le plus vers le haut.
+								<ul>
+									<li> Si ce sont les mêmes ils s'additionnent</li>
+								</ul>
+								</li>. 
+								<li>Ajoute aléatoirement un 2 ou un 4 dans le tableau.</li>
+						</ul>
+						</td>
+												<td>
+						<ul>Si Flèche du bas
+								<li> Tout se decale le plus vers le bas.
+								<ul>
+									<li> Si ce sont les mêmes ils s'additionnent</li>
+								</ul>
+								</li>. 
+								<li>Ajoute aléatoirement un 2 ou un 4 dans le tableau.</li>
+						</ul>
+						</td>
+					</tr>
+				</table>
+				</li>
+				<li>Le joueur a perdu si tout les 16 cases du tableau sont pleines.</li>
+				<li>Le joueur a gagné si 2 cases 1024 s'additionnent, le score augmente quand deux cases fusionnent, cela augmente de la valeur de l'addition de ces deux cases.</li>
+			</ol>
+			<h4 id="#se">Seconde séance</h4>
+			<p>
+			
+			</p>
+			
+			<h3 id="res">Le résultat</h3>
+			<div id="pros">
+				<div>
+					<canvas id="main" data-processing-sources="../js/main.pde" 
+							width="900" height="600">
+						<p>Your browser does not support the canvas tag.</p>
+						<!-- Note: you can put any alternative content here. -->
+					</canvas>
+					<noscript>
+						<p>JavaScript is required to view the contents of this page.</p>
+					</noscript>
+				</div>
+				<h1>Le 2048</h1>
+				<p>
+				Built with <a href="http://processing.org" title="Processing">Processing</a>
+				and <a href="http://processingjs.org" title="Processing.js">Processing.js</a>
+				</p>
+			</div>
 		</article>
 		<footer>
 			Tristan DRUSSEL- Février 2016
