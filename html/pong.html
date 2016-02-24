@@ -62,11 +62,39 @@
 			<h2 id="real">Réalisation</h2>
 			<h3 id="ac">Un menu d'accueil</h3>
 			<p>Afin d’accéder aux différentes fonctionnalités offertes par le programme, un menu permet de:
+				<ul>
+					<li>Accéder au mode solo</li>
+					<li>Accéder au mode multijoueur</li>
+					<li>Accéder au mode meilleur score</li>
+					<li>Quitter le jeu</li>
+				</ul>
 			</p>
-			<img>
+			<img src="../img/pong/menu.png" alt="Photo du menu" class="pong">
 			<h3 id="sol">Un mode solo</h3>
+			<p>Le mode solo permet de jouer avec une raquette et une balle qui rebondit entre la raquette et le bord de l'écran. La raquette étant controlée par la souris.</p>
+			<p>La difficulté augmente grâce à la reduction de la taille de la raquette et l'augmentation de la vitesse de la balle.</p>
+			<img src="../img/pong/solo.png" alt="Photo du mode solo" class="pong">
 			<h3 id="mul">Un mode multi</h3>
+			<img src="../img/pong/multi.png" alt="Photo du mode multi" class="pong">
+			<p>Le mode multijoueur permet de jouer contre un adversaire, les deux raquettes sont semblables controlées par les touches du clavier(Z,S,UP,DOWN). La partie s'arrete au bout de 5 points marqués par l'un des joueurs.</p>
 			<h3 id="high">Une gestion des highscores</h3>
+			<p>Les Highscores sont stockés dans un fichier texte afin de rester lors de l'interuption du programme.</p>
+			<pre>
+				<code class="bloccode">
+void putHighscore() {
+  highscoreWrite = createWriter("highscore.txt");//Créé un Writter pour écrire dans le fichier
+  highscoreWrite.println(highscoreSolo); //Ecrit le meilleur score
+  highscoreWrite.flush();//Envoye le meilleur score dans le fichier
+  highscoreWrite.close();//Ferme le fichier et supprime le Writter
+}
+				</code>
+			</pre>
+			<!-- 
+			<h2 id="res">Le résultat</h2>
+			
+			
+			
+			-->
 		</article>
 		<footer>
 			Tristan DRUSSEL- Février 2016

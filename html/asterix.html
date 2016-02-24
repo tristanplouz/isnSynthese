@@ -6,6 +6,7 @@
 		<meta name="generator" content="Geany 1.25" />
 		<link rel="stylesheet" href="../style/menu.css" />
 		<link rel="stylesheet" href="../style/content.css" />
+		<script src="../js/Asterix/processing.js" type="text/javascript"></script>
 	</head>
 	<body>
 		<nav>
@@ -37,9 +38,39 @@
 		</ul>
 		</nav>
 		<aside id="menuL" class="menu">
+			<h2><a href="#obj">Objectif</a></h2>
+			<h2><a href="#til">Les tiles</a></h2>
+			<h2><a href="#spri">Les sprites</a></h2>
+			<h2><a href="#res">Le résultat</a></h2>
 		</aside>
 		<article>
 		<h1>L'animation du personnage d'Astérix</h1>
+			<h2 id="obj">Objectif</h2>
+			<p>L'objectif de l'exercice est de decouvrir le principe de <i>tile</i> et de <i>sprites</i> à travers l'animation du personnage de Astérix.</p>
+			<h2 id="til">Les Tiles ou Tuiles</h2>
+			<blockquote cite="http://forums.mediabox.fr/wiki/tutoriaux/flashplatform/jeux/jeux_a_base_de_tuiles/ch1_utiliser_les_tuiles">
+			<p>En fait, il s'agit simplement d'éléments graphiques, souvent de même forme, répétés de façon à créer le décor du jeu. Mais un exemple vaut mieux qu'un long discours, alors pour vous présenter quelques unes des utilisations possibles de tuiles, voici quelques exemples parmi de célèbres jeux vidéos qui utilisent cette technologie. </p>	
+			</blockquote>
+			<p>L'interet des Tiles est donc de créer facilement des environnements grâce à des petites images souvent de 16px*16px.</p>
+			
+			<h2 id="spri">Les Sprites</h2>
+			<blockquote cite="https://fr.wikipedia.org/wiki/Sprite_%28jeu_vid%C3%A9o%29">
+			<p>Un sprite (ou lutin) est dans le jeu vidéo un élément graphique qui peut se déplacer sur l'écran. En principe, un sprite est en partie transparent, et il peut être animé (en étant formé de plusieurs bitmaps qui s'affichent les uns après les autres). Le fond de l'écran constitue généralement le décor et les sprites sont les personnages et les objets qui se superposent au fond d'écran et qui se déplacent.</p>	
+			</blockquote>
+			<p>L'interet des Sprites est donc de produire des images pour un jeu et d'animer facilement des personnages.</p>
+			<p>Les Sprites se présentent souvent sous la forme d'une grande planche d'images qui sont ensuite découpées puis afficher.</p>
+			
+			<h2 id="res">Le résultat</h2>
+				<div>
+					<canvas id="AnimationasterixDRUSSEL" data-processing-sources="../js/Asterix/Animation_asterix_DRUSSEL.pde" 
+							width="300" height="200">
+						<p>Your browser does not support the canvas tag.</p>
+						<!-- Note: you can put any alternative content here. -->
+					</canvas>
+					<noscript>
+						<p>JavaScript is required to view the contents of this page.</p>
+					</noscript>
+				</div>
 		</article>
 		<footer>
 			Tristan DRUSSEL- Février 2016

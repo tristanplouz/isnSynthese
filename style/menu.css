@@ -7,17 +7,19 @@
 #menuH{
 	width:95%;
 	height:10%;
+	border-radius:10px;
 }
 .items{
 	display:inline-block;
+	text-align:center;
 	margin: 10px;
-	padding:0;
 	border-style:ridge;
 	height:20%;
 	width:20%;
 	vertical-align:top;
 	background-color: #D7D0B4;
 	box-shadow:1px 0px 1px;
+	border-radius:10px;
 }
 
 #menuL{
