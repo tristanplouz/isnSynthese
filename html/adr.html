@@ -37,13 +37,35 @@
 		</ul>
 		</nav>
 		<aside id="menuL" class="menu">
+			<h2><a href="#def">Définition</a></h2>
+			<h3><a href="#as">En assembleur</a></h3>
+			<h3><a href="#autrement">Autrement</a></h3>
+			<h2><a href="#ex">Exemple</a></h2>
+			<h3><a href="#ree">Dans la vie réelle</a></h3>
+			<h3><a href="#info">En informatique</a></h3>
+			<h2><a href="#web">Utilité dans les pages web</a></h2>
 		</aside>
-		
+	
 		<article>
 			<h1>La difference entre Adresse relative et Adresse absolue</h1>
+			<h2 id="def">Définition</h2>
+				<h3 id="as">En assembleur</h3>
+				<p>La definition d'une adresse relative en assembleur, langage de programmation de très bas niveau juste avant le langage machine, est une valeur positive ou négative par rapport à la position actuelle de l'instruction, par exemple je recule de 4 octets ou j'avance de 4 octets.</p>
+				<p>L'adresse absolue est quant à elle la position depuis le point 0 de la mémoire je vais à l'adresse 0x0800 ou je vais à l'adresse 0x0900.</p>
+				<h3 id="autrement">Autrement</h3>
+				<p>Une adresse relative est une adresse qui definit la position de quelque chose comparée à la position de quelque chose d'autre, l'adresse absolue est le chemin complet pour s'y rendre.</p>
+			<h2 id="ex">Exemple</h2>
+				<h3 id="ree">Dans la vie réelle</h3>
+				<p>"Brest est à 504km à l'Est de Paris", il s'agit d'une adresse relative, il faut savoir où est Paris</p>
+				<p>"Brest est à 48°24′ Nord ; 4°28.9998′ Ouest", il s'agit d'une adresse absolue les coordonnées nous suffisent pas besoin d'autre chose pour trouver Brest.</p>
+				<h3 id="info">En informatique</h3>
+				<p><code>/home/moi/dossier/fichier</code> est une adresse absolue sur un système Linux, le chemin est clairement defini depuis la racine jusqu'au fichier.</p>
+				<p><code>../dossier/fichier</code> est une addresse relative, on doit savoir où l'on est pour trouver le fichier.</p>
+			<h2 id="web">Utilitée dans les pages web</h2>
+				<p>la diferrence entre les addresses relatives et absolues est très importante dans les pages web afin que le navigateur ou le serveur puisse trouver les differents elements du site. Une mauvaise adresse peut rendre des liens, des images ou des scripts inutilisables.</p>
 		</article>
 		<footer>
-			Tristan DRUSSEL- Février 2016
+			Tristan DRUSSEL- Février 2016 - <a href="https://github.com/tristanplouz/isnSynthese" class="link">Dernière version sur Github</a>
 		</footer>
 			
 	</body>
