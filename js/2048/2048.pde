@@ -199,7 +199,6 @@ void init() {
   score=0;
 }
 void keyPressed() {
-  println("a key has been pressed");
   if (key==CODED) {
     if (keyCode==LEFT) {
       for (int x=0; x<tab.length-1; x++) {
